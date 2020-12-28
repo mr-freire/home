@@ -6,30 +6,22 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Martin",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Freire",
+  message: " Passionate about changing the world with technology.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/mr-freire/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/martin-freire/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://trailblazer.me/id/mfreire",
     },
   ],
 };
@@ -54,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "I'm Martin Freire, a passionate Salesforce Enthusiast committed to bringing the best out of your Salesforce org. I'm always looking for new challenges,things to learn and how to give back to the community!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -66,8 +58,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "mr-freire", //i.e."johnDoe12Gh"
+  reposLength: 0,
   specificRepos: [],
 };
 
@@ -100,24 +92,22 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
+    { name: "Declarative Automation", value: 90 },
+    { name: "Apex", value: 85 },
+    { name: "SOQL", value: 85 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Reporting", value: 80 },
+    { name: "Security", value: 90 },
+    { name: "LWC", value: 65 },
+    { name: "Data Management", value: 85 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Team player", value: 100 },
+    { name: "End User Training", value: 80 },
+    { name: "Requirement Gathering", value: 75 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
+    { name: "Problem Solving", value: 80 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
   ],
 };
 
@@ -126,8 +116,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm open for full-time equivalnt Salesforce Adminitrator or Developer opportunities, specially if there's design and architecture involved. If you know of any contract based positions available, or if you have any questions, please feel free to email me at",
+  email: "martin@freire.cloud",
 };
 
 // Blog SECTION

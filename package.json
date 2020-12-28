@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com",
+  "homepage": "https://freire.cloud",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
+    "name": "Martin Freire",
     "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "url": "https://freire.cloud"
   },
   "dependencies": {
     "axios": "^0.19.2",
